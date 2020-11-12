@@ -22,9 +22,6 @@ public class P02 {
             System.out.println("Introduce la operación deseada");
             String operacion = sc.next();
             switch (operacion) {
-                case "+":
-                    System.out.println(num1 + num2);
-                    break;
                 case "-":
                     System.out.println(num1 - num2);
                     break;
